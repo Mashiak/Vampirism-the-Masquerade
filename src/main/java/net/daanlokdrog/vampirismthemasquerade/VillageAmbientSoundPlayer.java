@@ -30,8 +30,7 @@ public class VillageAmbientSoundPlayer {
         try {
             source = SoundSource.valueOf("VILLAGE_NOISE");
         } catch (IllegalArgumentException e) {
-            // Mixin injection failed for SoundSource.VILLAGE_NOISE. The Mixin is assumed to be working.
-            // System.err.println("Mixin injection failed for SoundSource.VILLAGE_NOISE.");
+            // System.err.println("Mixin failed for SoundSource");
             // source = SoundSource.AMBIENT;
             throw new RuntimeException(e);
         }
