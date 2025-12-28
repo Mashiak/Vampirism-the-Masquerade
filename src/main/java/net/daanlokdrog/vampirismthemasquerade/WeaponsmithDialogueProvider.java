@@ -96,7 +96,6 @@ public class WeaponsmithDialogueProvider implements IDialogueProvider {
     @Override
     public String getNextPageId(Player player, Entity entity, String currentPageId, int optionIndex) {
 
-        // 客户端分支：用 packetOptionId 匹配
         if (player.level().isClientSide) {
             if (pages.containsKey(currentPageId)) {
                 for (DialogueOption option : pages.get(currentPageId).options) {
@@ -108,7 +107,6 @@ public class WeaponsmithDialogueProvider implements IDialogueProvider {
             return START_PAGE;
         }
 
-        // 服务端分支：升级逻辑
         ServerLevel level = (ServerLevel) player.level();
         VampirismTheMasqueradeModVariables.PlayerVariables playerVars =
                 player.getData(VampirismTheMasqueradeModVariables.PLAYER_VARIABLES);
@@ -153,7 +151,6 @@ public class WeaponsmithDialogueProvider implements IDialogueProvider {
             return UPGRADE_SUCCESS_PAGE;
         }
 
-        // 兜底：再次用 packetOptionId 匹配
         if (pages.containsKey(currentPageId)) {
             for (DialogueOption option : pages.get(currentPageId).options) {
                 if (option.packetOptionId == optionIndex) {
