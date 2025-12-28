@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vampirism_the_masquerade:block/v_spawner_top",
+    "up": "vampirism_the_masquerade:block/v_spawner_top",
+    "north": "vampirism_the_masquerade:block/v_spawner",
+    "east": "vampirism_the_masquerade:block/v_spawner",
+    "south": "vampirism_the_masquerade:block/v_spawner",
+    "west": "vampirism_the_masquerade:block/v_spawner",
+    "particle": "vampirism_the_masquerade:block/v_spawner_top"
+  },
+  "render_type": "cutout"
+}

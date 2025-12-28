@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/bell_wall",
+  "textures": {
+    "bell_body": "vampirism_the_masquerade:block/thrall_bell",
+    "bell_top": "minecraft:block/bell_top",
+    "bell_bottom": "minecraft:block/bell_bottom"
+  }
+}

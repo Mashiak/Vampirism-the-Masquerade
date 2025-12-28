@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "vampirism_the_masquerade:thrall_tag"
+    },
+    "title": {
+      "translate": "advancements.thrall_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.thrall_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thrall_advancement_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "vampirism:vampire/become_vampire"
+}

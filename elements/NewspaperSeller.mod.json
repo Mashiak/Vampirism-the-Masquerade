@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Newspaper Seller",
+    "pointOfInterest": {
+      "value": "CUSTOM:NewspaperRack"
+    },
+    "actionSound": {
+      "value": "item.book.page_turn"
+    },
+    "hat": "Partial",
+    "professionTextureFile": "newspaper_seller.png",
+    "zombifiedProfessionTextureFile": "newspaper_seller.png"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "vampirism_the_masquerade:thrall_bell"
+    },
+    "title": {
+      "translate": "advancements.bell_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.bell_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bell_advancement_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "vampirism_the_masquerade:thrall_bell"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "vampirism_the_masquerade:thrall_advancement"
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "vampirism_the_masquerade:cover_novice_task",
+    "vampirism_the_masquerade:cover_adept_task",
+    "vampirism_the_masquerade:cover_lord_task"
+  ]
+}

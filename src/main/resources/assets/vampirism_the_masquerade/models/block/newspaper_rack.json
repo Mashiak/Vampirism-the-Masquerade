@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/copper_block",
+    "up": "vampirism_the_masquerade:block/rack_top",
+    "north": "vampirism_the_masquerade:block/rack",
+    "east": "vampirism_the_masquerade:block/rack",
+    "south": "vampirism_the_masquerade:block/rack",
+    "west": "vampirism_the_masquerade:block/rack",
+    "particle": "minecraft:block/copper_block"
+  },
+  "render_type": "solid"
+}

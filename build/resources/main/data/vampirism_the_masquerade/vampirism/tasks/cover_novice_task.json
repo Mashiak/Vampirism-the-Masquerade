@@ -1,0 +1,27 @@
+{
+  "id": "vampirism_the_masquerade:cover_novice_task",
+  "title": { "translate": "task.masquerade.cover" },
+  "unlocker": [
+    {
+      "type": "vampirism_the_masquerade:exposure_unlocker",
+      "exposureThreshold": 100,
+      "mode": "NOVICE",
+      "matchExactly": false
+    }
+  ],
+  "requirements": {
+    "requirements": [
+      {
+        "type": "vampirism:item",
+        "description": { "translate": "item.minecraft.gold_ingot" },
+        "id": "minecraft:gold_ingot",
+        "item": { "count": 32, "id": "minecraft:gold_ingot" }
+      }
+    ]
+  },
+  "rewards": {
+    "type": "vampirism_the_masquerade:cover_exposure",
+    "description": { "translate": "task_reward.vampirism_the_masquerade.cover_exposure" }
+  },
+"repeatable": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "vampirism:pure_blood"
+    },
+    "b": {
+      "item": "minecraft:bell"
+    },
+    "c": {
+      "item": "vampirism:human_heart"
+    }
+  },
+  "result": {
+    "id": "vampirism_the_masquerade:thrall_bell",
+    "count": 1
+  }
+}

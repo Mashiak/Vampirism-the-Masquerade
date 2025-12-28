@@ -1,0 +1,42 @@
+{
+  "requirements": {
+    "requirements": [
+      {
+        "type": "vampirism:entity_type",
+        "amount": 6,
+        "description": {
+          "translate": "entity_tag.vampirism.hunter"
+        },
+        "entityType": "vampirism:hunter",
+        "id": "vampirism:hunter"
+      },
+      {
+        "type": "vampirism:item",
+        "description": {
+          "translate": "item.minecraft.iron_ingot"
+        },
+        "id": "minecraft:iron_ingot",
+        "item": {
+          "count": 16,
+          "id": "minecraft:iron_ingot"
+        }
+      }
+    ]
+  },
+  "rewards": {
+    "type": "vampirism:item",
+    "item": {
+      "count": 1,
+      "id": "vampirism_the_masquerade:thrall_tag"
+    }
+  },
+  "title": {
+    "translate": "task.vampirism_the_masquerade.thrall_binding"
+  },
+  "unlocker": [
+    {
+      "type": "vampirism:level",
+      "reqLevel": 7
+    }
+  ]
+}

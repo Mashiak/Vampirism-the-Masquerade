@@ -1,0 +1,48 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Public Domain"
+
+[[mods]]
+modId="vampirism_the_masquerade"
+version="0.1.1"
+displayName="VampirismTheMasquerade"
+displayURL="https://space.bilibili.com/693971485?spm_id_from=333.1365.0.0"
+logoFile="logo.png"
+credits="Created using mod maker MCreator.(Export jar)"
+authors="Daanlokdrog"
+description="Make the mortals remember what once taught them to fear the night."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[mixins]]
+    config = "vampirism_the_masquerade.mixins.json"
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.vampirism_the_masquerade]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.190,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.vampirism_the_masquerade]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.vampirism_the_masquerade]]
+    modId="vampirism"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

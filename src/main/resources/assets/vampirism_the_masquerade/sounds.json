@@ -1,0 +1,602 @@
+{
+  "village_day_high1": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_high1",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_high2": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_high2",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_high3": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_high3",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_high4": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_high4",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_high5": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_high5",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_high6": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_high6",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_high7": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_high7",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_high8": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_high8",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_low1": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_low1",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_low2": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_low2",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_low3": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_low3",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_low4": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_low4",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_low5": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_low5",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_low6": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_low6",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_low7": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_low7",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_low8": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_low8",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe1": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe1",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe2": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe2",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe3": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe3",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe4": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe4",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe5": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe5",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe6": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe6",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe7": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe7",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe8": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe8",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_high1": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_high1",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_high2": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_high2",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_high3": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_high3",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_high4": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_high4",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_high5": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_high5",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_high6": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_high6",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_high7": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_high7",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_high8": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_high8",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_low1": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_low1",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_low2": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_low2",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_low3": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_low3",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_night_low4": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_night_low4",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe9": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe9",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe10": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe10",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe11": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe11",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe12": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe12",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe13": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe13",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe14": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe14",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe15": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe15",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe16": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe16",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe17": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe17",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe18": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe18",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe19": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe19",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe20": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe20",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe21": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe21",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe22": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe22",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+  "village_day_safe23": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:village_day_safe23",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "village_noise"
+  },
+    "vampire_service": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:vampire_service",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "neutral"
+  },
+    "vampire_dead": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:vampire_dead",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "neutral"
+  },
+    "vampire_revived": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:vampire_revived",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "neutral"
+  },
+      "vampire_wind1": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:vampire_wind1",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "neutral"
+  },
+      "vampire_wind2": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:vampire_wind2",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "neutral"
+  },
+    "heart_strong": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:heart_strong",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "player"
+  },
+    "heart_weak": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:heart_weak",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "player"
+  },
+      "vampire_f_roar": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:vampire_f_roar",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "player"
+  },
+    "vampire_m_roar": {
+    "sounds": [
+      {
+        "name": "vampirism_the_masquerade:vampire_m_roar",
+        "stream": false
+      }
+    ],
+    "attenuation": true,
+    "category": "player"
+  }
+}

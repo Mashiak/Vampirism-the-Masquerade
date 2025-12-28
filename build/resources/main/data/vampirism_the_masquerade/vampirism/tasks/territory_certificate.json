@@ -1,0 +1,42 @@
+{
+  "requirements": {
+    "requirements": [
+      {
+        "type": "vampirism:entity_type",
+        "amount": 12,
+        "description": {
+          "translate": "entity_tag.vampirism.hunter"
+        },
+        "entityType": "vampirism:hunter",
+        "id": "vampirism:hunter"
+      },
+      {
+        "type": "vampirism:item",
+        "description": {
+          "translate": "item.minecraft.gold_ingot"
+        },
+        "id": "minecraft:gold_ingot",
+        "item": {
+          "count": 32,
+          "id": "minecraft:gold_ingot"
+        }
+      }
+    ]
+  },
+  "rewards": {
+    "type": "vampirism:item",
+    "item": {
+      "count": 1,
+      "id": "vampirism_the_masquerade:territory_certificate"
+    }
+  },
+  "title": {
+    "translate": "task.vampirism_the_masquerade.territory_certificate"
+  },
+  "unlocker": [
+    {
+      "type": "vampirism:level",
+      "reqLevel": 7
+    }
+  ]
+}

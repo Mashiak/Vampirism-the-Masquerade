@@ -1,0 +1,24 @@
+{
+  "_fv": 79,
+  "_type": "particle",
+  "definition": {
+    "texture": "blue_cloth",
+    "animate": false,
+    "frameDuration": 1,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": {
+      "fixedValue": 7.0
+    },
+    "speedFactor": 1.0,
+    "gravity": 0.45,
+    "maxAge": 60,
+    "maxAgeDiff": 0,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": true,
+    "alwaysShow": true,
+    "emissiveRendering": false,
+    "renderType": "OPAQUE"
+  }
+}

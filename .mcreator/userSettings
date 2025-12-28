@@ -1,0 +1,15 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserSplitPos": 275,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, VampirismTheMasquerade]",
+      "[, VampirismTheMasquerade, Source (Gradle)]",
+      "[, VampirismTheMasquerade, Source (Gradle), C:\\Users\\82538\\MCreatorWorkspaces\\vampirism_the_masquerade\\src\\main\\java\\net]",
+      "[, VampirismTheMasquerade, Source (Gradle), C:\\Users\\82538\\MCreatorWorkspaces\\vampirism_the_masquerade\\src\\main\\java\\net, C:\\Users\\82538\\MCreatorWorkspaces\\vampirism_the_masquerade\\src\\main\\java\\net\\daanlokdrog]",
+      "[, VampirismTheMasquerade, Source (Gradle), C:\\Users\\82538\\MCreatorWorkspaces\\vampirism_the_masquerade\\src\\main\\java\\net, C:\\Users\\82538\\MCreatorWorkspaces\\vampirism_the_masquerade\\src\\main\\java\\net\\daanlokdrog, C:\\Users\\82538\\MCreatorWorkspaces\\vampirism_the_masquerade\\src\\main\\java\\net\\daanlokdrog\\vampirismthemasquerade]"
+    ]
+  }
+}

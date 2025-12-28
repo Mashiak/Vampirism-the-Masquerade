@@ -1,0 +1,3425 @@
+{
+  "mod_elements": [
+    {
+      "name": "IMasqueradeData",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "i_masquerade_data",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/IMasqueradeData.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeData",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_data",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeData.java"
+        ]
+      }
+    },
+    {
+      "name": "VillagerWitnessEvent",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "villager_witness_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillagerWitnessEvent.java"
+        ]
+      }
+    },
+    {
+      "name": "PlayerTickHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "player_tick_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/PlayerTickHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "VampirePlayer",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/VampirePlayerMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ExposureOverlay",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "exposure_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/client/screens/ExposureOverlayOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodBottleItem",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_bottle_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/BloodBottleItemMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeConfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/configuration/MasqueradeConfigConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "HunterTargetEventHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunter_target_event_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HunterTargetEventHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "VampirismItemBloodFoodItem",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampirism_item_blood_food_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/VampirismItemBloodFoodItemMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "HeartBloodFoodWitness",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "heart_blood_food_witness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HeartBloodFoodWitness.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeFogChecker",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_fog_checker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeFogChecker.java"
+        ]
+      }
+    },
+    {
+      "name": "HuntEventManager",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunt_event_manager",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HuntEventManager.java"
+        ]
+      }
+    },
+    {
+      "name": "HuntTickHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunt_tick_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HuntTickHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "VillagerTradeBlocker",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "villager_trade_blocker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillagerTradeBlocker.java"
+        ]
+      }
+    },
+    {
+      "name": "HunterDeathHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunter_death_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HunterDeathHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "DevilOfTheWorld",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "devil_of_the_world",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/potion/DevilOfTheWorldMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeEffect",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "HunterSpawnHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunter_spawn_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HunterSpawnHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "HunterEntityTickHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunter_entity_tick_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HunterEntityTickHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "KeepTheMasquerade",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "keep_the_masquerade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vampirism_the_masquerade/advancement/keep_the_masquerade.json"
+        ]
+      }
+    },
+    {
+      "name": "HuntersWrath",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunters_wrath",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vampirism_the_masquerade/advancement/hunters_wrath.json"
+        ]
+      }
+    },
+    {
+      "name": "Template1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "template_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/template_1.json",
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/item/Template1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Template2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "template_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/template_2.json",
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/item/Template2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "CopperMask",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "copper_mask",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/item/CopperMaskItem.java",
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/copper_mask_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "CopperMaskCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_mask_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vampirism_the_masquerade/recipe/copper_mask_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "MaskTooltipEditor",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mask_tooltip_editor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MaskTooltipEditor.java"
+        ]
+      }
+    },
+    {
+      "name": "HunterDropsRemove",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunter_drops_remove",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HunterDropsRemove.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeTaskRewards",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_task_rewards",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeTaskRewards.java"
+        ]
+      }
+    },
+    {
+      "name": "ExposureUnlocker",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "exposure_unlocker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/ExposureUnlocker.java"
+        ]
+      }
+    },
+    {
+      "name": "CoverExposureReward",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cover_exposure_reward",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/CoverExposureReward.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeTask",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_task",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeTask.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeTasksProvider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_tasks_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeTasksProvider.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeDataDistributor",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_data_distributor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeDataDistributor.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeTaskTags",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_task_tags",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeTaskTags.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeTaskUtils",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_task_utils",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeTaskUtils.java"
+        ]
+      }
+    },
+    {
+      "name": "HuntEventHooks",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunt_event_hooks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HuntEventHooks.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeVillageData",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_village_data",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeVillageData.java"
+        ]
+      }
+    },
+    {
+      "name": "GetPanicCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_panic_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/GetPanicCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "SetPanicCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "set_panic_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/SetPanicCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "CommandRegistry",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "command_registry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/CommandRegistry.java"
+        ]
+      }
+    },
+    {
+      "name": "PanicFactory",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "panic_factory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/PanicFactory.java"
+        ]
+      }
+    },
+    {
+      "name": "VillageHelper",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "village_helper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillageHelper.java"
+        ]
+      }
+    },
+    {
+      "name": "CheckVillageCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "check_village_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/CheckVillageCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "VillageMarker",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "village_marker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillageMarker.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeVillageDebug",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_village_debug",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeVillageDebug.java"
+        ]
+      }
+    },
+    {
+      "name": "VillageScanEventHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "village_scan_event_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillageScanEventHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "DumpVillageChunksCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dump_village_chunks_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DumpVillageChunksCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ForceMarkVillageCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "force_mark_village_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/ForceMarkVillageCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "GetVillageCenterCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_village_center_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/GetVillageCenterCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "ClearVillageCentersCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "clear_village_centers_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/ClearVillageCentersCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "DebugVillageExpandCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "debug_village_expand_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DebugVillageExpandCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "AttackPanic",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "attack_panic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/AttackPanic.java"
+        ]
+      }
+    },
+    {
+      "name": "InfectionPanic",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infection_panic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/InfectionPanic.java"
+        ]
+      }
+    },
+    {
+      "name": "VillagePanicBehavior",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "village_panic_behavior",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillagePanicBehavior.java"
+        ]
+      }
+    },
+    {
+      "name": "TradePanicReduction",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "trade_panic_reduction",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/TradePanicReduction.java"
+        ]
+      }
+    },
+    {
+      "name": "VampirismVillagerInteract",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampirism_villager_interact",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VampirismVillagerInteract.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "MasqueradeHelper",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_helper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeHelper.java"
+        ]
+      }
+    },
+    {
+      "name": "VillagerConvert",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "villager_convert",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillagerConvert.java"
+        ]
+      }
+    },
+    {
+      "name": "VillageAmbientSoundRegistry",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "village_ambient_sound_registry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillageAmbientSoundRegistry.java"
+        ]
+      }
+    },
+    {
+      "name": "VillageAmbientSoundPlayer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "village_ambient_sound_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillageAmbientSoundPlayer.java"
+        ]
+      }
+    },
+    {
+      "name": "PanicEventEffects",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "panic_event_effects",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/PanicEventEffects.java"
+        ]
+      }
+    },
+    {
+      "name": "HunterInvestigateGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunter_investigate_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HunterInvestigateGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "VillageHunterSpawner",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "village_hunter_spawner",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillageHunterSpawner.java"
+        ]
+      }
+    },
+    {
+      "name": "HunterTeleporter",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunter_teleporter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HunterTeleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "VillagerGarlicFarmGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "villager_garlic_farm_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillagerGarlicFarmGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "VillagerGarlicRegistry",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "villager_garlic_registry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VillagerGarlicRegistry.java"
+        ]
+      }
+    },
+    {
+      "name": "DialogueData",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dialogue_data",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DialogueData.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "NegotiationScreen",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "negotiation_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/NegotiationScreen.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "NegotiationMenu",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "negotiation_menu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/NegotiationMenu.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "DialoguePacket",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dialogue_packet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DialoguePacket.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "ModEventBusSubscriber",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mod_event_bus_subscriber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/ModEventBusSubscriber.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "VampireBaronTarget",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_baron_target",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VampireBaronTarget.java"
+        ]
+      }
+    },
+    {
+      "name": "MinionTasks",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "minion_tasks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MinionTasks.java"
+        ]
+      }
+    },
+    {
+      "name": "CalmRumorsTask",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "calm_rumors_task",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/CalmRumorsTask.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireMinionEntity",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_minion_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/VampireMinionEntityMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "MinionTaskEntry",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "minion_task_entry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/MinionTaskEntryMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "HunterIntelTracker",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunter_intel_tracker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HunterIntelTracker.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeDomainData",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_domain_data",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/MasqueradeDomainData.java"
+        ]
+      }
+    },
+    {
+      "name": "IDialogueProvider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "i_dialogue_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/IDialogueProvider.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "DialogueProviderRegistry",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dialogue_provider_registry",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DialogueProviderRegistry.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "BasicVillagerDialogueProvider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "basic_villager_dialogue_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/BasicVillagerDialogueProvider.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "TerritoryCertificate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "territory_certificate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/item/TerritoryCertificateItem.java",
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/territory_certificate.json"
+        ]
+      }
+    },
+    {
+      "name": "TerritoryLevelSync",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "territory_level_sync",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/TerritoryLevelSync.java"
+        ]
+      }
+    },
+    {
+      "name": "UnbindDomainCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "unbind_domain_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/UnbindDomainCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "DialogueUpdatePacket",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dialogue_update_packet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DialogueUpdatePacket.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "VampireSpawnModifier",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_spawn_modifier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VampireSpawnModifier.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireHabitabilityBonusInjector",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_habitability_bonus_injector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VampireHabitabilityBonusInjector.java"
+        ]
+      }
+    },
+    {
+      "name": "HandHeldSubmissionHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hand_held_submission_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HandHeldSubmissionHandler.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "FarmerDialogueProvider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "farmer_dialogue_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/FarmerDialogueProvider.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "GetGoodwillCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "get_goodwill_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/GetGoodwillCommand.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "ModSoundEvents",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mod_sound_events",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/ModSoundEvents.java"
+        ]
+      }
+    },
+    {
+      "name": "SoundSource",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sound_source",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/SoundSourceMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ICurableConvertedCreature",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "i_curable_converted_creature",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/ICurableConvertedCreatureMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "DefaultConvertingHandler",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "default_converting_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/DefaultConvertingHandlerMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "SpecialConvertingHandler",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "special_converting_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/SpecialConvertingHandlerMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ExpertDialogueProvider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "expert_dialogue_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/ExpertDialogueProvider.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "VampireEar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vampire_ear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/item/VampireEarItem.java",
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/vampire_ear.json"
+        ]
+      }
+    },
+    {
+      "name": "DonationReward",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "donation_reward",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DonationReward.java"
+        ]
+      }
+    },
+    {
+      "name": "ItemRewardInstance",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "item_reward_instance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/ItemRewardInstanceMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "PriestDialogueProvider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "priest_dialogue_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/PriestDialogueProvider.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "ArmorerDialogueProvider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "armorer_dialogue_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/ArmorerDialogueProvider.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "WeaponsmithDialogueProvider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "weaponsmith_dialogue_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/WeaponsmithDialogueProvider.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "BlankLetter",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blank_letter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/item/BlankLetterItem.java",
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/blank_letter.json"
+        ]
+      }
+    },
+    {
+      "name": "LordVampireTarget",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lord_vampire_target",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/LordVampireTarget.java"
+        ]
+      }
+    },
+    {
+      "name": "DomainDefense",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "domain_defense",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DomainDefense.java"
+        ]
+      }
+    },
+    {
+      "name": "HunterExpertDialogueProvider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "hunter_expert_dialogue_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/HunterExpertDialogueProvider.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "AdvancedVampireAdvisorRecruiter",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advanced_vampire_advisor_recruiter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/AdvancedVampireAdvisorRecruiter.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvisorTeleporter",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advisor_teleporter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/AdvisorTeleporter.java"
+        ]
+      }
+    },
+    {
+      "name": "DeadAdvisorStorage",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dead_advisor_storage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DeadAdvisorStorage.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvisorDeathHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advisor_death_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/AdvisorDeathHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvisorRespawnManager",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advisor_respawn_manager",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/AdvisorRespawnManager.java"
+        ]
+      }
+    },
+    {
+      "name": "StoredAdvisorData",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "stored_advisor_data",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/StoredAdvisorData.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvancedVampireAdvisorInteract",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advanced_vampire_advisor_interact",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/AdvancedVampireAdvisorInteract.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "AdvisorDialogueProvider",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advisor_dialogue_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/AdvisorDialogueProvider.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "CoffinPOIs",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "coffin_po_is",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/CoffinPOIs.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvisorSleepGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advisor_sleep_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/AdvisorSleepGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvisorGoalInjector",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advisor_goal_injector",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/AdvisorGoalInjector.java"
+        ]
+      }
+    },
+    {
+      "name": "CoffinBlock",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "coffin_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/CoffinBlockMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvisorReviveCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advisor_revive_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/AdvisorReviveCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "VampirePlayerHandleSpareBlood",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_player_handle_spare_blood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/VampirePlayerHandleSpareBloodMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ExtendedCreatureBloodReduction",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "extended_creature_blood_reduction",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/ExtendedCreatureBloodReductionMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "VampirePlayerBloodCount",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_player_blood_count",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/VampirePlayerBloodCountMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "DomainEdictStorage",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "domain_edict_storage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DomainEdictStorage.java"
+        ]
+      }
+    },
+    {
+      "name": "UndeadPacifist",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "undead_pacifist",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/UndeadPacifist.java"
+        ]
+      }
+    },
+    {
+      "name": "DunamisOverlay",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dunamis_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DunamisOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "DunamisMaxSync",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dunamis_max_sync",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DunamisMaxSync.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodDrunk",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_drunk",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/BloodDrunkMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "DunamisDamageMultiplier",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dunamis_damage_multiplier",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DunamisDamageMultiplier.java"
+        ]
+      }
+    },
+    {
+      "name": "BeastModeHandler",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "beast_mode_handler",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/BeastModeHandler.java"
+        ]
+      }
+    },
+    {
+      "name": "BeastModeVisual",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "beast_mode_visual",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/BeastModeVisual.java"
+        ]
+      }
+    },
+    {
+      "name": "BeastModeOverlay",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "beast_mode_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/BeastModeOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "BeastModeCombat",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "beast_mode_combat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/BeastModeCombat.java"
+        ]
+      }
+    },
+    {
+      "name": "DunamisCooldownReduction",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dunamis_cooldown_reduction",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/DunamisCooldownReduction.java"
+        ]
+      }
+    },
+    {
+      "name": "DBNO",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dbno",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/DBNOMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "CustomRenderTypes",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "custom_render_types",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/CustomRenderTypes.java"
+        ]
+      }
+    },
+    {
+      "name": "BeastCommand",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "beast_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/BeastCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "BeastModeDeathMessage",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "beast_mode_death_message",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/BeastModeDeathMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "TeleportVampireAction",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "teleport_vampire_action",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/TeleportVampireActionMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "BatParticle",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bat_particle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vampirism_the_masquerade/particles/bat_particle.json",
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/client/particle/BatParticleParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "BeastWingRender",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "beast_wing_render",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/BeastWingRender.java"
+        ]
+      }
+    },
+    {
+      "name": "NewspaperRack",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newspaper_rack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/newspaper_rack.json",
+          "src/main/resources/assets/vampirism_the_masquerade/models/block/newspaper_rack.json",
+          "src/main/resources/assets/vampirism_the_masquerade/blockstates/newspaper_rack.json",
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/block/NewspaperRackBlock.java",
+          "src/main/resources/data/vampirism_the_masquerade/loot_table/blocks/newspaper_rack.json"
+        ]
+      }
+    },
+    {
+      "name": "NewspaperSeller",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "newspaper_seller",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vampirism_the_masquerade/textures/entity/villager/profession/newspaper_seller.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "NewspaperItem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "newspaper_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/newspaper_item.json",
+          "src/main/java/net/mcreator/vampirismthemasquerade/item/NewspaperItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ItemInHandRenderer",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "item_in_hand_renderer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/ItemInHandRendererMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ItemInHandRendererMap",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "item_in_hand_renderer_map",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/mixin/ItemInHandRendererMapMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "AdvisorRenderOffset",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "advisor_render_offset",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/AdvisorRenderOffset.java"
+        ]
+      }
+    },
+    {
+      "name": "ObserverEntityMarker",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "observer_entity_marker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/ObserverEntityMarker.java"
+        ]
+      }
+    },
+    {
+      "name": "VSpawner",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "v_spawner",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vampirism_the_masquerade/blockstates/v_spawner.json",
+          "src/main/resources/assets/vampirism_the_masquerade/models/block/v_spawner.json",
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/v_spawner.json",
+          "src/main/resources/data/vampirism_the_masquerade/loot_table/blocks/v_spawner.json",
+          "src/main/java/net/mcreator/vampirismthemasquerade/block/VSpawnerBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "VSpawnerBlockRespawn",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "v_spawner_block_respawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampirismthemasquerade/VSpawnerBlockRespawn.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallTag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_tag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/item/ThrallTagItem.java",
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/thrall_tag.json"
+        ]
+      }
+    },
+    {
+      "name": "ThrallAPI",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_api",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ThrallAPI.java"
+        ]
+      }
+    },
+    {
+      "name": "DomainFeedingRestriction",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "domain_feeding_restriction",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/DomainFeedingRestriction.java"
+        ]
+      }
+    },
+    {
+      "name": "LilithTotem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "lilith_totem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vampirism_the_masquerade/blockstates/lilith_totem.json",
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/lilith_totem.json",
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/block/LilithTotemBlock.java",
+          "src/main/resources/assets/vampirism_the_masquerade/models/block/lilith_totem.json",
+          "src/main/resources/data/vampirism_the_masquerade/loot_table/blocks/lilith_totem.json"
+        ]
+      }
+    },
+    {
+      "name": "ThrallBell",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_bell",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vampirism_the_masquerade/models/block/thrall_bell.json",
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/thrall_bell.json",
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/block/ThrallBellBlock.java",
+          "src/main/resources/assets/vampirism_the_masquerade/blockstates/thrall_bell.json",
+          "src/main/resources/data/vampirism_the_masquerade/loot_table/blocks/thrall_bell.json"
+        ]
+      }
+    },
+    {
+      "name": "ThrallBellItem",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_bell_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ThrallBellItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MoveToBellGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "move_to_bell_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/MoveToBellGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallBellBlockEntity",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_bell_block_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ThrallBellBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BellBlockEntityCtor",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bell_block_entity_ctor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/BellBlockEntityCtorMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "BlockEntityValidate",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "block_entity_validate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/BlockEntityValidateMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallBellRenderer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_bell_renderer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ThrallBellRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "VtMClientSetup",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vt_m_client_setup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VtMClientSetup.java"
+        ]
+      }
+    },
+    {
+      "name": "VampirismTheMasqueradeModBlockEntities",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampirism_the_masquerade_mod_block_entities",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampirismTheMasqueradeModBlockEntities.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallBellClick",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_bell_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ThrallBellClick.java"
+        ]
+      }
+    },
+    {
+      "name": "BiteNearbyEntityVampireGoal",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bite_nearby_entity_vampire_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/BiteNearbyEntityVampireGoalMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallReputationBlocker",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_reputation_blocker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/ThrallReputationBlockerMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallZombieTargetBlocker",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_zombie_target_blocker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ThrallZombieTargetBlocker.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallBellCraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_bell_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vampirism_the_masquerade/recipe/thrall_bell_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodOverlayMarker",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_overlay_marker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/BloodOverlayMarker.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodOverlayRender",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_overlay_render",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/BloodOverlayRender.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodOverlayLayer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_overlay_layer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/BloodOverlayLayer.java"
+        ]
+      }
+    },
+    {
+      "name": "Handkerchief",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "handkerchief",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/item/HandkerchiefItem.java",
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/handkerchief.json"
+        ]
+      }
+    },
+    {
+      "name": "Handkerchiefrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "handkerchiefrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vampirism_the_masquerade/recipe/handkerchiefrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BloodOverlay",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/BloodOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Template3",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "template_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/item/Template3Item.java",
+          "src/main/resources/assets/vampirism_the_masquerade/models/item/template_3.json"
+        ]
+      }
+    },
+    {
+      "name": "Beastadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "beastadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vampirism_the_masquerade/advancement/beastadvancement.json"
+        ]
+      }
+    },
+    {
+      "name": "ThrallAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vampirism_the_masquerade/advancement/thrall_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "BellAdvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "bell_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vampirism_the_masquerade/advancement/bell_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Reference",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "reference",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/ReferenceMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "VampirePlayerEye",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_player_eye",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/VampirePlayerEyeMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "VampirePlayerAppearanceScreen",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_player_appearance_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/VampirePlayerAppearanceScreenMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "VampirePlayerHeadLayer",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_player_head_layer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/VampirePlayerHeadLayerMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeConfigHelper",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_config_helper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/MasqueradeConfigHelper.java"
+        ]
+      }
+    },
+    {
+      "name": "VampirePlayerFang",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_player_fang",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/VampirePlayerFangMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ConvertedVillagerJoin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "converted_villager_join",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ConvertedVillagerJoin.java"
+        ]
+      }
+    },
+    {
+      "name": "NegotiationIconOverlay",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "negotiation_icon_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/NegotiationIconOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "NoObserverUtil",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "no_observer_util",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/NoObserverUtil.java"
+        ]
+      }
+    },
+    {
+      "name": "ObserverUnmarker",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "observer_unmarker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ObserverUnmarker.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireVillagerUtil",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_villager_util",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampireVillagerUtil.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallIconOverlay",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_icon_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ThrallIconOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallAttachment",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_attachment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ThrallAttachment.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallDataHolder",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_data_holder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ThrallDataHolder.java"
+        ]
+      }
+    },
+    {
+      "name": "VillagerThrallData",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "villager_thrall_data",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/VillagerThrallDataMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallData",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_data",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ThrallData.java"
+        ]
+      }
+    },
+    {
+      "name": "ThrallEntityJoin",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thrall_entity_join",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ThrallEntityJoin.java"
+        ]
+      }
+    },
+    {
+      "name": "DialogueUtils",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dialogue_utils",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/DialogueUtils.java"
+        ]
+      },
+      "path": "~/Dialogue"
+    },
+    {
+      "name": "VampirePlayerBiteFeed",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_player_bite_feed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/VampirePlayerBiteFeedMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "VampirePillagerEntity",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_pillager_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampirePillagerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "ModEntities",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mod_entities",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ModEntities.java"
+        ]
+      }
+    },
+    {
+      "name": "ModEntityRenderers",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "mod_entity_renderers",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/ModEntityRenderers.java"
+        ]
+      }
+    },
+    {
+      "name": "RangedCrossbowWalkAndShootGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ranged_crossbow_walk_and_shoot_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/RangedCrossbowWalkAndShootGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireVindicatorEntity",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_vindicator_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampireVindicatorEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireIllagerOverlayLayer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_illager_overlay_layer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampireIllagerOverlayLayer.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireEvokerRenderer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_evoker_renderer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampireEvokerRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireEvokerEntity",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_evoker_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampireEvokerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireIllagerConvert",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_illager_convert",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampireIllagerConvert.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeRaiderTypes",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_raider_types",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/MasqueradeRaiderTypes.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireIllagerTeleportUtil",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_illager_teleport_util",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampireIllagerTeleportUtil.java"
+        ]
+      }
+    },
+    {
+      "name": "MovingWhileCastingGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "moving_while_casting_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/MovingWhileCastingGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "BlackSmokeEscapeGoal",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "black_smoke_escape_goal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/BlackSmokeEscapeGoal.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeEntitySetup",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_entity_setup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/MasqueradeEntitySetup.java"
+        ]
+      }
+    },
+    {
+      "name": "MasqueradeDatagen",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "masquerade_datagen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/MasqueradeDatagen.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireDamageWitness",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_damage_witness",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampireDamageWitness.java"
+        ]
+      }
+    },
+    {
+      "name": "LargeCampfireSmokeParticle",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "large_campfire_smoke_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/LargeCampfireSmokeParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "LargeCampfireSmokeParticles",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "large_campfire_smoke_particles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/LargeCampfireSmokeParticles.java"
+        ]
+      }
+    },
+    {
+      "name": "LargeCampfireSmokeParticlesClient",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "large_campfire_smoke_particles_client",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/LargeCampfireSmokeParticlesClient.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireIllusionerEntity",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_illusioner_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampireIllusionerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "VampireIllusionerHit",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "vampire_illusioner_hit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampireIllusionerHit.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueCloth",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cloth",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vampirism_the_masquerade/particles/blue_cloth.json",
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/client/particle/BlueClothParticle.java"
+        ]
+      }
+    },
+    {
+      "name": "HumorDataHolder",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "humor_data_holder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/HumorDataHolder.java"
+        ]
+      }
+    },
+    {
+      "name": "VillagerHumorData",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "villager_humor_data",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/VillagerHumorDataMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "HumorData",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "humor_data",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/HumorData.java"
+        ]
+      }
+    },
+    {
+      "name": "HumorType",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "humor_type",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/HumorType.java"
+        ]
+      }
+    },
+    {
+      "name": "RenderHandlerBloodVision",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "render_handler_blood_vision",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/RenderHandlerBloodVisionMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "OutlineBufferAccessor",
+      "type": "mixin",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "outline_buffer_accessor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/mixin/OutlineBufferAccessorMixin.java"
+        ]
+      }
+    },
+    {
+      "name": "HumorIconRenderer",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "humor_icon_renderer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/HumorIconRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "BloodFoodEvent",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blood_food_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/daanlokdrog/vampirismthemasquerade/BloodFoodEvent.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "exposure",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "huntValue",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "huntActive",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "huntBegining",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "spawnedHunters",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "huntSpawnCooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "huntKillCounter",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "huntTimes",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "isVampireVillager",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "situation",
+      "type": "string",
+      "scope": "map",
+      "value": "\"peace\""
+    },
+    {
+      "name": "hasTerritory",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "territories",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0.0"
+    },
+    {
+      "name": "donation",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "dunamis",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "max_dunamis",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "lastPriestPrayerTime",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "beast_cooldown",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "beast",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "bloodiedUntil",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "bloodOverlayIndex",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "heartbeatTickCounter",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:vampirism_the_masquerade:mask": [
+      "CUSTOM:CopperMask.helmet",
+      "TAG:vampirism_the_masquerade:mask"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:LilithTotem"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:Handkerchief"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.vampirism_the_masquerade.exposure_overlay.label_s": "test_value",
+      "vampirism_the_masquerade.configuration.natural_decay_interval_seconds": "naturalDecayIntervalSeconds",
+      "vampirism_the_masquerade.configuration.hunter_increase_interval_seconds": "hunterIncreaseIntervalSeconds",
+      "vampirism_the_masquerade.configuration.tick": "Tick",
+      "vampirism_the_masquerade.configuration.exposure_in_vampire_forest": "exposureInVampireForest",
+      "vampirism_the_masquerade.configuration.exposure_in_vampire_fog": "exposureInVampireFog",
+      "vampirism_the_masquerade.configuration.exposure": "Exposure",
+      "vampirism_the_masquerade.configuration.invisibility_decay_rate": "invisibilityDecayRate",
+      "vampirism_the_masquerade.configuration.hunter_observe_radius": "hunterObserveRadius",
+      "vampirism_the_masquerade.configuration.villager_observe_radius": "villagerObserveRadius",
+      "vampirism_the_masquerade_hunt": "Hunt",
+      "vampirism_the_masquerade_villager_refuse": "Villager refuse to trade with you",
+      "vampirism_the_masquerade_unwelcome": "You are not welcome here.",
+      "vampirism_the_masquerade_huntFailed": "Hunt - Retreat",
+      "effect.vampirism_the_masquerade.devil_of_the_world": "Devil Of The World",
+      "advancements.keep_the_masquerade.descr": "Save the Masquerade before it gets out of control.",
+      "advancements.keep_the_masquerade.title": "Keep the Masquerade",
+      "advancements.hunters_wrath.descr": "Completely break the Masquerade, reveal your presence.",
+      "advancements.hunters_wrath.title": "Hunter\u0027s Wrath",
+      "vampirism_the_masquerade.configuration.hunter_bar_filling_speed": "hunterBarFillingSpeed",
+      "item.vampirism_the_masquerade.template_1": "Template 1",
+      "item.vampirism_the_masquerade.template_2": "Template 2",
+      "vampirism_the_masquerade_huntBegin": "Hunt : %s",
+      "item.vampirism_the_masquerade.copper_mask_helmet": "Copper Mask",
+      "tooltip.vampirism_the_masquerade.masquerade_mask": "Put on this mask to fool mortals.",
+      "vampirism_the_masquerade_hunt_end_for_now": "They were temporarily defeated. But next time, they will be even more dangerous.",
+      "vampirism_the_masquerade.configuration.hunt_reinforcement_factor": "huntReinforcementFactor",
+      "task.masquerade.cover": "Court Protection",
+      "task.vampirism_the_masquerade.cover_lord_task.reward": "Trade in blood and favor; let the Royals’ iron hand crush truth and end the hunt.",
+      "task_reward.vampirism_the_masquerade.cover_exposure": "Clear exposure and prevent hunting.",
+      "task.vampirism_the_masquerade.cover_adept_task.reward": "Use your connections. beseech local prince to veil thy exposure in sovereign shadow.",
+      "task.vampirism_the_masquerade.cover_novice_task.reward": "Seek refuge with the kindred community, cover up the rumors, and mislead the hunters.",
+      "text.masquerade.cover_success": "Mortals can\u0027t find us.",
+      "vampirism_the_masquerade.configuration.panic_calculation_adjustment_value": "panicCalculationAdjustmentValue",
+      "vampirism_the_masquerade.configuration.village_scan_interval": "villageScanInterval",
+      "vampirism_the_masquerade.configuration.village": "Village",
+      "vampirism_the_masquerade.configuration.village_scan": "villageScan",
+      "masquerade.menu.negotiate": "",
+      "masquerade.menu.trade": "",
+      "masquerade.menu.greeting": "",
+      "vampirism_the_masquerade.configuration.max_damage_for_panic": "maxDamageForPanic",
+      "vampirism_the_masquerade.configuration.panic_behavior_interval": "panicBehaviorInterval",
+      "vampirism_the_masquerade.mask_talk": ": Bloodkin, we can take off our masks and talk where mortals cannot see.",
+      "vampirism_the_masquerade.v_villager_talk1": ": Speak, bloodkin.",
+      "vampirism_the_masquerade.v_villager_warn1": ": Be careful, these people are curious about you.",
+      "vampirism_the_masquerade.v_villager_warn2": ": Watch out! Mortals are watching you.",
+      "vampirism_the_masquerade.v_villager_warn3": ": Don’t talk to me! If you break the Masquerade, go find a representative immediately!",
+      "vampirism_the_masquerade.panic_throw_garlic": "Villager threw garlic at you.",
+      "vampirism_the_masquerade.configuration.converted_villager_spawn": "convertedVillagerSpawn",
+      "vampirism_the_masquerade.v_villager_talk2": ": I didn\u0027t expect to meet you, Your Excellency.",
+      "vampirism_the_masquerade.v_villager_talk3": ": Thank you for honoring me with your presence, Your Majesty!",
+      "vampirism_the_masquerade.configuration.village_fx": "villageFX",
+      "minion_task.vampirism_the_masquerade.calm_rumors": "Calm Rumors",
+      "minion_task.vampirism_the_masquerade.calm_rumors.start": "Your minion has begun to calm rumors. Panic in this area will slowly decrease.",
+      "minion_task.vampirism_the_masquerade.calm_rumors.desc": "",
+      "vampirism_the_masquerade.exposure": "Exposure : %s",
+      "vampirism_the_masquerade.configuration.siege_threshold": "siegeThreshold",
+      "vtm.intel_gained": "Through your dreams, you hear mortals searching for the vampire\u0027s lair.",
+      "vtm.siege_warning": "Hunters found your lair!",
+      "item.vampirism_the_masquerade.territory_certificate": "Territory Certificate",
+      "vtm.claim.error.not_vampire": "You are not a vampire.",
+      "vtm.claim.error.no_village": "This chunk does not belong to any village.",
+      "vtm.claim.error.already_claimed": "This village has been claimed by %s",
+      "vtm.claim.success": "Successfully claimed territory! You are now the lord of %s",
+      "domain.vampirism_the_masquerade.default_prefix": "Area -",
+      "vtm.command.unbind.only_player": "Only players can execute this command.",
+      "vtm.command.unbind.no_village": "Failed to find a valid village nearby.",
+      "vtm.command.unbind.not_claimed": "The current village has not been claimed and does not need to be unbound.",
+      "vtm.command.unbind.success": "Successfully unbound this territory.",
+      "vtm.command.unbind.not_lord": "You are not the lord here and have no authority to break the binding.",
+      "vtm.command.unbind.admin_override": "[Admin] Successfully unbound this territory.",
+      "tooltip.vampirism_the_masquerade.territory_certificate_name_hint": "The name of the territory will be the name of this item.",
+      "dialogue.vtm.main_npc_greeting": "Bloodkin, the children of the night greet you.",
+      "dialogue.basic.q1a.low": "The mortals here know almost nothing about us.",
+      "dialogue.basic.q1a.mid": "Underneath, currents are stirring. Many people are talking about our kind.",
+      "dialogue.basic.q1a.high": "Mortals fear us, and they have hired vampire hunters. Maybe I should move to another village.",
+      "dialogue.vtm.q2_response": "You can make a mask to hide your vampire features. If you are strong enough, you can \u0027Disguise\u0027.",
+      "dialogue.vtm.q3_response": "If your identity is exposed, vampire hunters will immediately come after you. In this case, the local vampire representatives can help you. Even if your identity is not fully exposed, you should wait until the situation calms down before returning to the lair, otherwise the hunters might trace clues to find your home. I do not recommend confronting the hunters head-on, because they always learn from their failures.",
+      "dialogue.vtm.q1_mortal_awareness": "Do the mortals here sense our presence?",
+      "dialogue.vtm.q2_how_to_hide": "How should I hide myself?",
+      "dialogue.vtm.q3_things_to_note": "As a vampire, are there any things I need to be aware of?",
+      "dialogue.vtm.q4_exit_dialogue": "Goodbye.",
+      "dialogue.vtm.back_to_main": "Back to what we were talking about.",
+      "task.vampirism_the_masquerade.territory_certificate": "Declare Territory",
+      "vtm.farmer.dialogue.start_text": "If you are willing to donate some blood resources to the local warehouse, such as heart or pure blood, I can allocate the resources and manage them in an organized manner. If resources are abundant, vampires will be stronger.",
+      "vtm.farmer.dialogue.option.offer_gift": "(Donate resources)",
+      "vtm.farmer.dialogue.option.exit": "(Back)",
+      "vtm.farmer.dialogue.option.continue": "(Continue)",
+      "vtm.farmer.dialogue.blood_received": "Pure blood? Don’t worry, I won’t ask where you got it from.",
+      "vtm.farmer.dialogue.nothing_to_give": "Hmm, I don’t see any resources in your hands. Could you take them out yourself, please?",
+      "vtm.farmer.dialogue.heart_received": "It seems you are a cardiology specialist, right?",
+      "gui.vampirism_the_masquerade.negotiation_menu": "Kindred Negotiation",
+      "soundCategory.village_noise": "Village Noise",
+      "subtitle.village_noise": "Village Noise",
+      "vtm.farmer.dialogue.warning.domain_lost": "This chunk does not belong to any village. Donation cannot be completed.",
+      "vtm.farmer.dialogue.lord_level_insufficient": "Pray, hold, milord. Your lord level among the Kindred commands not yet the awe of the court. Draw not undue eyes upon yourself.",
+      "vtm.claim.error.low_vampire_level": "Your level is too low to have your own territory.",
+      "vtm.claim.error.max_territories": "You cannot own more territory for now.",
+      "vtm.expert.dialogue.start_text": "The Royals are ever ravenous for tribute. Feed their hunger, and greater privileges shall follow. Fortunate am I to know the paths that please them best. (Offer gold ingots, hearts, or Pure Bloods to the Royals and raise your donation level.)",
+      "vtm.expert.dialogue.option.offer_gift": "They will like these...",
+      "vtm.expert.dialogue.option.exit": "Wait, let me think again.",
+      "vtm.expert.dialogue.heart_received": "Heart of finest quality. Delicacy for the table.",
+      "vtm.expert.dialogue.option.continue": "(Continue)",
+      "vtm.expert.dialogue.blood_received": "Some titles of lordship reclaimed? Splendid. The Royals will gladly redistribute them.",
+      "vtm.expert.dialogue.gold_received": "Gold is always hard currency.",
+      "vtm.expert.dialogue.nothing_to_give": "It looks like your hands are empty.",
+      "item.vampirism_the_masquerade.vampire_ear": "Severed vampire ear",
+      "task_reward.masquerade.donation_reward": "By protecting the vampire community, you will gain more praise.",
+      "text.masquerade.donation_success": "Your donations has increased",
+      "gui.masquerade.donation_display": "Donation: %s",
+      "vtm.priest.dialogue.start_text": "My child, what are you looking for?",
+      "vtm.priest.dialogue.option.seek_prayer": "I need your help.",
+      "vtm.priest.dialogue.option.exit": "(Leave)",
+      "vtm.priest.dialogue.confirm_prayer": "Child, my word still carries weight in this village. I can speak well for you to dispel their doubts. But first, I must be certain you are worth the favor.",
+      "vtm.priest.dialogue.option.yes_pray": "I will pray.",
+      "vtm.priest.dialogue.option.no_exit": "I need to think about it.",
+      "vtm.priest.dialogue.prayer_granted": "I am sure you are very devout; God cannot lose a pure lamb like you. Go in peace, I shall soothe the flock when I preach. (Exposure and local panic slightly reduced)",
+      "vtm.priest.dialogue.already_prayed": "I will calm the people during the sermon. You can go now.",
+      "vtm.priest.dialogue.no_cost": "",
+      "vtm.priest.dialogue.option.continue": "Okay.",
+      "vtm.armorer.dialogue.start_text": "Though my flesh is cold as the grave, a fire burns in my heart hotter than any hearth… How wondrous.",
+      "vtm.armorer.dialogue.option.upgrade_static": "I need to upgrade local defenses.",
+      "vtm.armorer.dialogue.option.exit": "Goodbye.",
+      "vtm.armorer.dialogue.confirm_upgrade": "My liege. If you have certain value to the Royals, you can request a batch of new equipment from them to strengthen our local Kindred.",
+      "vtm.armorer.dialogue.option.yes_upgrade": "The necessary writs are prepared. (Confirm Upgrade)",
+      "vtm.armorer.dialogue.option.no_exit": "I need to think about it.",
+      "vtm.armorer.dialogue.upgrade_success": "Splendid, my liege. You have clad our local Kindred in stronger steel.",
+      "vtm.armorer.dialogue.option.continue": "(Continue)",
+      "vtm.armorer.dialogue.not_lord": "You are not the lord of this domain.",
+      "vtm.armorer.dialogue.no_domain": "This is too far from the territory. ",
+      "vtm.armorer.dialogue.insufficient_donation": "The Royals are unlikely to agree... You know how to grease their palms, don’t you? My apologies, milord. This is simply Kindred diplomacy.",
+      "vtm.weaponsmith.dialogue.start_text": "Milord, steel bites far deeper than claws ever could.",
+      "vtm.weaponsmith.dialogue.option.upgrade_static": "I need to upgrade local weapons.",
+      "vtm.weaponsmith.dialogue.option.exit": "Goodbye.",
+      "vtm.weaponsmith.dialogue.confirm_upgrade": "My liege. If you have certain value to the Royals, you can request a batch of new equipment from them to strengthen our local Kindred.",
+      "vtm.weaponsmith.dialogue.option.yes_upgrade": "The necessary writs are prepared. (Confirm Upgrade)",
+      "vtm.weaponsmith.dialogue.option.no_exit": "I need to think about it.",
+      "vtm.weaponsmith.dialogue.upgrade_success": "Excellent, milord! Our local Kindred will now tear through our enemies with far deadlier fangs!",
+      "vtm.weaponsmith.dialogue.option.continue": "(Continue)",
+      "vtm.weaponsmith.dialogue.not_lord": "You are not the lord of this domain.",
+      "vtm.weaponsmith.dialogue.no_domain": "This is too far from the territory. ",
+      "vtm.weaponsmith.dialogue.insufficient_donation": "The Royals are unlikely to agree... You know how to grease their palms, don’t you? My apologies, milord. This is simply Kindred diplomacy.",
+      "vtm.weaponsmith.chat.upgrade_status": "Local vampire damage: + %s",
+      "vtm.armorsmith.chat.upgrade_status": "Local vampire defense: + %s",
+      "item.vampirism_the_masquerade.blank_letter": "Letter with Official Seal - Blank",
+      "vtm.hunter_expert.dialogue.start_text": "Be careful, bloodkin. Don\u0027t let people notice our conversation.",
+      "vtm.hunter_expert.dialogue.option.trade": "I need your help.",
+      "vtm.hunter_expert.dialogue.option.exit": "(Leave)",
+      "vtm.hunter_expert.dialogue.trade_offer": "Bloodkin, if hunters are sniffing too close to your lair, I can help mislead them. Of course, nothing in our world comes free.",
+      "vtm.hunter_expert.dialogue.option.confirm": "How about a heavy purse brimming with gold? (Costs 24 gold ingots)",
+      "vtm.hunter_expert.dialogue.option.cancel": "I need to think about it.",
+      "vtm.hunter_expert.dialogue.trade_success": "I will give you an official letter with a seal, which you can use to mislead the hunters elsewhere.",
+      "vtm.hunter_expert.dialogue.option.continue": "Great.",
+      "vtm.hunter_expert.dialogue.not_enough_gold": "You don’t have enough gold. Business is business, sorry.",
+      "vtm.hunter_expert.dialogue.inventory_full": "It looks like you can’t carry any more on yourself.",
+      "vtm.blank_letter.intel_reset": "After sending the letter, you feel like you can finally get a good day’s sleep.",
+      "vtm.blank_letter.tooltip": "Use it next to your coffin to temporarily prevent hunters from tracking your lair.",
+      "vtm.advisor.error.not_in_domain": "We should speak in more... formal surroundings.",
+      "vtm.advisor.error.no_pure_blood_in_hand": "This place could serve as home. If you want me to stay and work, you’ll need to pay me in Pure Blood.",
+      "vtm.advisor.error.low_habitability": "This place is hardly fit for our kind… Come find me again once you’ve made proper arrangements.",
+      "vtm.advisor.error.max_advisors": "Your current level shouldn’t have more advisors.",
+      "vtm.advisor.success": "At your service, Majesty.",
+      "vtm.advisor.teleported": "Advisor teleported back to home.(Coffin or Territory Center)",
+      "vtm.advisor.error.high_panic": "These mortals… they reek of fear. It seems some troubles still fester in your domain.",
+      "vtm.advisor_status.defeated": "A wound that refuses to mend has forced %s into torpor.",
+      "vtm.advisor_status.revived": "%s has awakened from torpor.",
+      "gui.vampirism_the_masquerade.negotiation_menu_advisor": "Territorial Decree",
+      "vampirism_the_masquerade.configuration.maximum_health_bonus": "maximumHealthBonus",
+      "vampirism_the_masquerade.configuration.territory": "Territory",
+      "vampirism_the_masquerade.configuration.maximum_damage_bonus": "maximumDamageBonus",
+      "vampirism_the_masquerade.configuration.maximum_armor_bonus": "maximumArmorBonus",
+      "vtm.advisor.dialogue.start": "Walk in safety, Majesty. The night is yours to command.",
+      "vtm.advisor.option.edicts": "I want to adjust the decree.",
+      "vtm.advisor.option.exit": "It\u0027s nothing.",
+      "vtm.advisor.dialogue.edicts_menu": "So, what laws will you lay down?",
+      "vtm.advisor.option.monster_protect": "Let the dead protect me.",
+      "vtm.advisor.option.forbid_feeding": "No outsiders allowed to feed.",
+      "vtm.advisor.option.back": "(back)",
+      "vtm.advisor.dialogue.no_domain": "This is too far from the territory.",
+      "vtm.advisor.status.disabled": "This decree has been disabled.",
+      "vtm.advisor.status.activated": "This decree has been enabled.",
+      "vtm.advisor.feedback.status_update": "Decree: %1$s  %2$s",
+      "vampirism_the_masquerade.dunamis": "Dunamis: %s",
+      "vtm.beast.sleeping": "The Beast within falls silent.",
+      "vtm.dbno_save.beast_activated": "The Beast within has been unleashed!",
+      "vampirism_the_masquerade.configuration.beast_mode": "beastMode",
+      "vampirism_the_masquerade.configuration.dunamis": "Dunamis",
+      "vampirism_the_masquerade.configuration.power": "Power",
+      "death.attack.vampirism_the_masquerade.beast_kill": "%1$s was torn apart by the Beast within %2$s.",
+      "block.vampirism_the_masquerade.newspaper_rack": "Newspaper Rack",
+      "entity.minecraft.villager.vampirism_the_masquerade.newspaper_seller": "Newspaper Seller",
+      "item.vampirism_the_masquerade.newspaper_item": "Newspaper Item",
+      "vtm.advisor.error.not_your_advisor": "",
+      "block.vampirism_the_masquerade.v_spawner": "Ossuary",
+      "vtm.subtitle.advisor": "Advisor",
+      "item.vampirism_the_masquerade.thrall_tag": "Thrall Tag",
+      "vtm.subtitle.thrall": "Thrall",
+      "vtm.thrall.success": "W-what are you... I am bound to your will, Master.",
+      "vtm.edict.feeding_violation": "It is illegal to drink blood here. A blood hunt has been called.",
+      "vtm.edict.feeding_alert": "%s is illegally drinking blood in your territory.",
+      "block.vampirism_the_masquerade.lilith_totem": "Lilith Totem",
+      "vtm.thrall.error.not_last_attacker": "Before binding a thrall, you must first break their will with the vampire’s bite.",
+      "block.vampirism_the_masquerade.thrall_bell": "Thrall-Binding Bell",
+      "task.vampirism_the_masquerade.thrall_binding": "Blood Supply",
+      "task.vampirism_the_masquerade.thrall_bell": "Control Thralls",
+      "item.vampirism_the_masquerade.handkerchief": "Handkerchief",
+      "vampirism_the_masquerade.configuration.misc": "Misc",
+      "vampirism_the_masquerade.configuration.bloody_feed": "bloodyFeed",
+      "item.vampirism_the_masquerade.template_3": "Template 3",
+      "advancements.beastadvancement.descr": "Walk as a lion among sheep. Men will tremble at your approach",
+      "advancements.beastadvancement.title": "A Lion Among Sheep",
+      "advancements.thrall_advancement.descr": "Thrall mortals. Let them willingly be your personal blood animals.",
+      "advancements.thrall_advancement.title": "As you wish",
+      "advancements.bell_advancement.title": "Come to your master.",
+      "advancements.bell_advancement.descr": "Obtain the Thrall-Binding Bell.",
+      "vampirism_the_masquerade.configuration.eye_type": "eyeType",
+      "vampirism_the_masquerade.configuration.fang_type": "fangType",
+      "entity.vampirism_the_masquerade.vampire_pillager ": "Converted Pillager",
+      "entity.vampirism_the_masquerade.vampire_vindicator": "Converted Vindicator",
+      "entity.vampirism_the_masquerade.vampire_evoker": "Vampire Evoker",
+      "humor.vtm.phlegmatic": "Phlegmatic",
+      "humor.vtm.choleric": "Choleric",
+      "humor.vtm.sanguine": "Sanguine",
+      "humor.vtm.melancholic": "Melancholic",
+      "tooltip.vtm.injected_blood": "Blood injected",
+      "tooltip.vtm.ml": "mb"
+    },
+    "zh_cn": {
+      "gui.vampirism_the_masquerade.exposure_overlay.label_s": "test_value",
+      "vampirism_the_masquerade.configuration.natural_decay_interval_seconds": "naturalDecayIntervalSeconds",
+      "vampirism_the_masquerade.configuration.hunter_increase_interval_seconds": "hunterIncreaseIntervalSeconds",
+      "vampirism_the_masquerade.configuration.tick": "Tick",
+      "vampirism_the_masquerade.configuration.exposure_in_vampire_forest": "exposureInVampireForest",
+      "vampirism_the_masquerade.configuration.exposure_in_vampire_fog": "exposureInVampireFog",
+      "vampirism_the_masquerade.configuration.exposure": "暴露度",
+      "vampirism_the_masquerade.configuration.invisibility_decay_rate": "invisibilityDecayRate",
+      "vampirism_the_masquerade.configuration.hunter_observe_radius": "hunterObserveRadius",
+      "vampirism_the_masquerade.configuration.villager_observe_radius": "villagerObserveRadius",
+      "vampirism_the_masquerade_hunt": "狩猎",
+      "vampirism_the_masquerade_villager_refuse": "村民拒绝与你交易。",
+      "vampirism_the_masquerade_unwelcome": "你在这不受欢迎。",
+      "vampirism_the_masquerade_huntFailed": "狩猎 - 撤退",
+      "effect.vampirism_the_masquerade.devil_of_the_world": "尘世恶魔",
+      "advancements.keep_the_masquerade.descr": "在一发不可收拾前挽救避世。",
+      "advancements.keep_the_masquerade.title": "避世戒律",
+      "advancements.hunters_wrath.descr": "彻底曝光你的存在，引来猎人全面进攻。",
+      "advancements.hunters_wrath.title": "猎人之怒",
+      "vampirism_the_masquerade.configuration.hunter_bar_filling_speed": "hunterBarFillingSpeed",
+      "item.vampirism_the_masquerade.template_1": "Template 1",
+      "item.vampirism_the_masquerade.template_2": "Template 2",
+      "vampirism_the_masquerade_huntBegin": "狩猎 : %s",
+      "item.vampirism_the_masquerade.copper_mask_helmet": "假面（铜）",
+      "tooltip.vampirism_the_masquerade.masquerade_mask": "戴上它来骗过凡人。",
+      "vampirism_the_masquerade_hunt_end_for_now": "他们暂时溃败。但在下次，他们会更加危险。",
+      "vampirism_the_masquerade.configuration.hunt_reinforcement_factor": "huntReinforcementFactor",
+      "task.masquerade.cover": "避世潜藏",
+      "task.vampirism_the_masquerade.cover_lord_task.reward": "以利益交换，利用王庭的铁腕扼杀真相。清空暴露度且阻止狩猎。",
+      "task_reward.vampirism_the_masquerade.cover_exposure": "消除已经引起的暴露并误导猎人。",
+      "task.vampirism_the_masquerade.cover_adept_task.reward": "利用错综复杂的人脉，请本地亲王掩盖暴露。",
+      "task.vampirism_the_masquerade.cover_novice_task.reward": "向当地的血族群体请求庇护，掩盖传闻、引开猎人。",
+      "text.masquerade.cover_success": "凡人追不上我们的脚步。",
+      "vampirism_the_masquerade.configuration.panic_calculation_adjustment_value": "panicCalculationAdjustmentValue",
+      "vampirism_the_masquerade.configuration.village_scan_interval": "villageScanInterval",
+      "vampirism_the_masquerade.configuration.village": "Village",
+      "vampirism_the_masquerade.configuration.village_scan": "villageScan",
+      "masquerade.menu.negotiate": "交涉",
+      "masquerade.menu.trade": "交易",
+      "masquerade.menu.greeting": "你好啊，血亲。",
+      "vampirism_the_masquerade.configuration.max_damage_for_panic": "maxDamageForPanic",
+      "vampirism_the_masquerade.configuration.panic_behavior_interval": "panicBehaviorInterval",
+      "vampirism_the_masquerade.panic_throw_garlic": "村民朝你扔了大蒜。",
+      "vampirism_the_masquerade.mask_talk": "：血亲，我们可以卸下伪装，在凡人看不到的地方交谈。",
+      "vampirism_the_masquerade.v_villager_talk1": "：小声点，血亲，不要声张。你需要点什么？",
+      "vampirism_the_masquerade.v_villager_warn1": "：小心，这些人对你感到好奇。",
+      "vampirism_the_masquerade.v_villager_warn2": "：留神！很多人在关注你。",
+      "vampirism_the_masquerade.v_villager_warn3": "：嘘，别跟我搭话！倘若你打破了避世，马上去找特使！",
+      "vampirism_the_masquerade.configuration.converted_villager_spawn": "convertedVillagerSpawn",
+      "vampirism_the_masquerade.v_villager_talk2": "：我没想到会见到您，阁下。",
+      "vampirism_the_masquerade.v_villager_talk3": "：万分荣幸，陛下！",
+      "vampirism_the_masquerade.configuration.village_fx": "villageFX",
+      "minion_task.vampirism_the_masquerade.calm_rumors": "平息流言",
+      "minion_task.vampirism_the_masquerade.calm_rumors.start": "你的宫廷开始平息流言，地区恐慌缓慢下降。",
+      "minion_task.vampirism_the_masquerade.calm_rumors.desc": "派出仆从到所在区域，引导舆论以降低当地的恐慌值。",
+      "vampirism_the_masquerade.exposure": "暴露度：%s",
+      "vampirism_the_masquerade.configuration.siege_threshold": "siegeThreshold",
+      "vtm.intel_gained": "通过梦境，你听到凡人在寻找吸血鬼的巢穴。",
+      "vtm.siege_warning": "棺材被强行开启，猎人袭击了你的巢穴！",
+      "item.vampirism_the_masquerade.territory_certificate": "领地证书",
+      "vtm.claim.error.not_vampire": "你还不是吸血鬼。",
+      "vtm.claim.error.no_village": "这个区块不是村庄。",
+      "vtm.claim.error.already_claimed": "认领失败！该村庄已是 %s 的领地。",
+      "vtm.claim.success": "认领成功！你现在是 %s 的主人。",
+      "domain.vampirism_the_masquerade.default_prefix": "领地 -",
+      "vtm.command.unbind.only_player": "只有玩家才能执行此命令。",
+      "vtm.command.unbind.no_village": "未能在附近找到有效的村庄。",
+      "vtm.command.unbind.not_claimed": "当前村庄尚未被认领，无需解除绑定。",
+      "vtm.command.unbind.success": "成功解除该领地的绑定。",
+      "vtm.command.unbind.not_lord": "你不是这里的领主，无权解除绑定。",
+      "vtm.command.unbind.admin_override": "【管理员】成功解除该领地的绑定。",
+      "tooltip.vampirism_the_masquerade.territory_certificate_name_hint": "该物品的名字将成为领地的命名。",
+      "dialogue.vtm.main_npc_greeting": "血亲，夜之族类向你致意。",
+      "dialogue.basic.q1a.low": "这里的凡人对我们几乎一无所知。 ",
+      "dialogue.basic.q1a.mid": "暗潮涌动。许多人在议论我们的存在。 ",
+      "dialogue.basic.q1a.high": "凡人恐惧我们，他们聘请了吸血鬼猎人。也许我应该搬去别的村庄。 ",
+      "dialogue.vtm.q2_response": "你可以制作一张面具，遮挡过于明显的吸血鬼特征。如果你足够强大，就可以使用“伪装”。  ",
+      "dialogue.vtm.q3_response": "如果你的身份曝光，吸血鬼猎人会立刻找上你。在这种情况下，有些德高望重的本地吸血鬼有办法帮助你。即使你的身份没有完全曝光，也应该等到风头过去再回巢穴，否则猎人可能根据线索找到你的家。我不建议你跟猎人硬碰硬，因为他们总会从失败中吸取教训。 ",
+      "dialogue.vtm.q1_mortal_awareness": "这个村子的凡人是否觉察了我们的存在？",
+      "dialogue.vtm.q2_how_to_hide": "我应该如何隐藏自己？ ",
+      "dialogue.vtm.q3_things_to_note": "作为吸血鬼，有什么需要注意的事情吗？ ",
+      "dialogue.vtm.q4_exit_dialogue": "再见。",
+      "dialogue.vtm.back_to_main": "说回上个话题。",
+      "task.vampirism_the_masquerade.territory_certificate": "列土封疆",
+      "vtm.farmer.dialogue.start_text": "如果你愿意捐献一些血液资源到本地血库，比如心脏、纯净血液，吸血鬼们会更健壮，这里会变得更加宜居。",
+      "vtm.farmer.dialogue.option.offer_gift": "我带来了一些东西...",
+      "vtm.farmer.dialogue.option.exit": "（返回）",
+      "vtm.farmer.dialogue.option.continue": "（继续）",
+      "vtm.farmer.dialogue.blood_received": "纯净血液？放心吧，我不会问你从哪得到的。",
+      "vtm.farmer.dialogue.nothing_to_give": "嗯，我没在你手上看到资源。请你自己拿出来，好吗？",
+      "vtm.farmer.dialogue.heart_received": "看来您是心脏科专家，对吧？",
+      "gui.vampirism_the_masquerade.negotiation_menu": "血族交涉",
+      "soundCategory.village_noise": "村庄喧嚣",
+      "subtitle.village_noise": "村庄喧嚣",
+      "vtm.farmer.dialogue.warning.domain_lost": "所在区块不属于村庄，无法捐献。",
+      "vtm.farmer.dialogue.lord_level_insufficient": "请稍等，大人。您的领主等级不足以使唤那些年长的血族。过度发展会引来不必要的注意。",
+      "vtm.claim.error.low_vampire_level": "你的等级太低，无法拥有自己的领地。",
+      "vtm.claim.error.max_territories": "你暂时无法拥有更多领地。",
+      "vtm.expert.dialogue.start_text": "王庭的显贵们总是贪得无厌。投其所好，我们会得到更多便利。恰好，我知道不少门路。（将金锭、心脏、纯净血液赠送王庭，增加自己的奉献值）",
+      "vtm.expert.dialogue.option.offer_gift": "他们会喜欢这些的...",
+      "vtm.expert.dialogue.option.exit": "且慢，我再想想。",
+      "vtm.expert.dialogue.heart_received": "高品质的人心。餐桌上的佳肴。",
+      "vtm.expert.dialogue.option.continue": "（继续）",
+      "vtm.expert.dialogue.blood_received": "收回了一些领主的名分？好极了，王庭会把它们重新分配的。",
+      "vtm.expert.dialogue.gold_received": "金子，永远都是硬通货。",
+      "vtm.expert.dialogue.nothing_to_give": "看起来你手上空空如也。",
+      "item.vampirism_the_masquerade.vampire_ear": "被切下的吸血鬼之耳",
+      "task_reward.masquerade.donation_reward": "专注于保护血族社区，你将得到更多的赞誉。",
+      "text.masquerade.donation_success": "你的奉献值提高了",
+      "gui.masquerade.donation_display": "奉献值：%s",
+      "vtm.priest.dialogue.start_text": "孩子，你在寻找什么呢？",
+      "vtm.priest.dialogue.option.seek_prayer": "我需要你的帮助。",
+      "vtm.priest.dialogue.option.exit": "（离开）",
+      "vtm.priest.dialogue.confirm_prayer": "孩子，我的话语在当地还算有分量。我可以替你说些好话，打消他们的怀疑。但我需要确定该不该帮你。",
+      "vtm.priest.dialogue.option.yes_pray": "我祈祷。",
+      "vtm.priest.dialogue.option.no_exit": "我需要考虑一下。",
+      "vtm.priest.dialogue.prayer_granted": "我确信你很虔诚，神不能失去像你这样纯洁的羊羔。放心去吧，我会在布道时安抚民众的。（暴露度与当地恐慌值些许降低）",
+      "vtm.priest.dialogue.already_prayed": "我会在今天的布道上诉说你的虔诚慈悲。",
+      "vtm.priest.dialogue.no_cost": "",
+      "vtm.priest.dialogue.option.continue": "好的。",
+      "vtm.armorer.dialogue.start_text": "虽然身体冰冷，但我却感到心火比炉火炙热...多么奇妙。",
+      "vtm.armorer.dialogue.option.upgrade_static": "我需要升级本地防御。",
+      "vtm.armorer.dialogue.option.exit": "再会。",
+      "vtm.armorer.dialogue.confirm_upgrade": "大人。如果您对王庭来说有一定的价值，就可以向他们申请一批新装备来加强本地血族。",
+      "vtm.armorer.dialogue.option.yes_upgrade": "相关文书已准备妥当。（确认升级）",
+      "vtm.armorer.dialogue.option.no_exit": "我需要考虑一下。",
+      "vtm.armorer.dialogue.upgrade_success": "好极了，我的大人。您让本地血族得到了更好的保护。",
+      "vtm.armorer.dialogue.option.continue": "（继续）",
+      "vtm.armorer.dialogue.not_lord": "您不是这里的领主。",
+      "vtm.armorer.dialogue.no_domain": "这里离领地太远了。（请在领地区块内进行）",
+      "vtm.armorer.dialogue.insufficient_donation": "王庭恐怕不会同意...您知道怎么和他们打好关系，对吧？抱歉大人，这就是血族外交。",
+      "vtm.weaponsmith.dialogue.start_text": "大人，武器可比爪子好使多了。",
+      "vtm.weaponsmith.dialogue.option.upgrade_static": "我需要升级本地武器。",
+      "vtm.weaponsmith.dialogue.option.exit": "再会。",
+      "vtm.weaponsmith.dialogue.confirm_upgrade": "大人。如果您对王庭来说有一定的价值，就可以向他们申请一批新装备来加强本地血族。",
+      "vtm.weaponsmith.dialogue.option.yes_upgrade": "相关文书已准备妥当。（确认升级）",
+      "vtm.weaponsmith.dialogue.option.no_exit": "我需要考虑一下。",
+      "vtm.weaponsmith.dialogue.upgrade_success": "非常好，大人！本地血族在对外作战的时候将更加凶猛！",
+      "vtm.weaponsmith.dialogue.option.continue": "（继续）",
+      "vtm.weaponsmith.dialogue.not_lord": "您不是这里的领主。",
+      "vtm.weaponsmith.dialogue.no_domain": "这里离领地太远了。（请在领地区块内进行）",
+      "vtm.weaponsmith.dialogue.insufficient_donation": "王庭恐怕不会同意...您知道怎么和他们打好关系，对吧？抱歉大人，这就是血族外交。",
+      "vtm.weaponsmith.chat.upgrade_status": "本地吸血鬼攻击力：+ %s",
+      "vtm.armorsmith.chat.upgrade_status": "本地吸血鬼防御力：+ %s",
+      "item.vampirism_the_masquerade.blank_letter": "带公章的信件-空白",
+      "vtm.hunter_expert.dialogue.start_text": "小心点，血亲。别让人们注意到我们的谈话。",
+      "vtm.hunter_expert.dialogue.option.trade": "我需要你的帮助。",
+      "vtm.hunter_expert.dialogue.option.exit": "（离开）",
+      "vtm.hunter_expert.dialogue.trade_offer": "血亲，如果有猎人在追查你的巢穴，我可以帮你误导他们。当然，这不是免费的。",
+      "vtm.hunter_expert.dialogue.option.confirm": "给你一个装满金子的厚钱包如何？（花费24金锭）",
+      "vtm.hunter_expert.dialogue.option.cancel": "我再考虑一下。",
+      "vtm.hunter_expert.dialogue.trade_success": "血亲。我会给你一封带公章的信，你可以利用它来将猎人误导到其他地方。",
+      "vtm.hunter_expert.dialogue.option.continue": "好极了。",
+      "vtm.hunter_expert.dialogue.not_enough_gold": "你没有足够的金子。生意就是生意，抱歉。",
+      "vtm.hunter_expert.dialogue.inventory_full": "看起来你身上放不下了。",
+      "vtm.blank_letter.intel_reset": "信件发出，你感到自己能睡个好觉了。",
+      "vtm.blank_letter.tooltip": "在你的棺材旁边使用它，暂时阻止猎人追踪你的巢穴。",
+      "vtm.advisor.error.not_in_domain": "我们应该在更正式的场合交谈。",
+      "vtm.advisor.error.no_pure_blood_in_hand": "这地方可以当成家。如果要我留下来工作，你得支付一些纯净血液作为报酬。",
+      "vtm.advisor.error.low_habitability": "这里不怎么样... 等你筹备完毕再来找我吧。",
+      "vtm.advisor.error.max_advisors": "这里容不下更多的长者。也许你该赢得更高的尊位？",
+      "vtm.advisor.success": "为您效劳，陛下。",
+      "vtm.advisor.teleported": "顾问传送返回了家。（棺材或领地中心）",
+      "vtm.advisor.error.high_panic": "这些凡人...在害怕。看来你的领地仍有亟待解决的问题。",
+      "vtm.advisor_status.defeated": "难以愈合的致命伤迫使 %s 陷入了蛰眠。",
+      "vtm.advisor_status.revived": "%s 已从蛰眠中醒来。",
+      "gui.vampirism_the_masquerade.negotiation_menu_advisor": "领地法令",
+      "vampirism_the_masquerade.configuration.maximum_health_bonus": "maximumHealthBonus",
+      "vampirism_the_masquerade.configuration.territory": "Territory",
+      "vampirism_the_masquerade.configuration.maximum_damage_bonus": "maximumDamageBonus",
+      "vampirism_the_masquerade.configuration.maximum_armor_bonus": "maximumArmorBonus",
+      "vtm.advisor.dialogue.start": "愿你平安，陛下。夜晚为你效劳。",
+      "vtm.advisor.option.edicts": "我要调整法令。",
+      "vtm.advisor.option.exit": "没事。",
+      "vtm.advisor.dialogue.edicts_menu": "那么，你需要定下什么规矩？",
+      "vtm.advisor.option.monster_protect": "让亡者们保护我。",
+      "vtm.advisor.option.forbid_feeding": "禁止外来者吸血。",
+      "vtm.advisor.option.back": "（返回）",
+      "vtm.advisor.dialogue.no_domain": "这里离领地太远了。",
+      "vtm.advisor.status.disabled": "该法令已停用。",
+      "vtm.advisor.status.activated": "该法令正生效。",
+      "vtm.advisor.feedback.status_update": "法令：%1$s  %2$s",
+      "vampirism_the_masquerade.dunamis": "血威：%s",
+      "vtm.beast.sleeping": "血液中浓郁的诅咒之力愈发枯竭，心兽陷入了沉睡...",
+      "vtm.dbno_save.beast_activated": "心兽挣脱了束缚！",
+      "vampirism_the_masquerade.configuration.beast_mode": "beastMode",
+      "vampirism_the_masquerade.configuration.dunamis": "Dunamis",
+      "vampirism_the_masquerade.configuration.power": "Power",
+      "death.attack.vampirism_the_masquerade.beast_kill": "%1$s 被 %2$s 的心兽撕碎了。",
+      "block.vampirism_the_masquerade.newspaper_rack": "报纸架",
+      "entity.minecraft.villager.vampirism_the_masquerade.newspaper_seller": "卖报员",
+      "item.vampirism_the_masquerade.newspaper_item": "报纸",
+      "vtm.advisor.error.not_your_advisor": "",
+      "block.vampirism_the_masquerade.v_spawner": "骸骨架",
+      "vtm.subtitle.advisor": "顾问",
+      "item.vampirism_the_masquerade.thrall_tag": "血奴绑定牌",
+      "vtm.subtitle.thrall": "血奴",
+      "vtm.thrall.success": "我、我顺服您的意志，主人。",
+      "vtm.edict.feeding_violation": "你在他人领地内非法吸血，血猎已下达。",
+      "vtm.edict.feeding_alert": "%s 在你的领地内非法吸血。",
+      "block.vampirism_the_masquerade.lilith_totem": "莉莉丝图腾",
+      "vtm.thrall.error.not_last_attacker": "在奴役之前，你必须用吸血鬼之咬屈服目标的心智。",
+      "block.vampirism_the_masquerade.thrall_bell": "唤奴圣钟",
+      "task.vampirism_the_masquerade.thrall_binding": "固定血源",
+      "task.vampirism_the_masquerade.thrall_bell": "差遣血奴",
+      "item.vampirism_the_masquerade.handkerchief": "手帕",
+      "vampirism_the_masquerade.configuration.misc": "Misc",
+      "vampirism_the_masquerade.configuration.bloody_feed": "bloodyFeed",
+      "item.vampirism_the_masquerade.template_3": "Template 3",
+      "advancements.beastadvancement.descr": "释放心兽，让敌人因你的狂怒与干渴而颤抖！",
+      "advancements.beastadvancement.title": "羊群中的狮子",
+      "advancements.thrall_advancement.descr": "将一个凡人变为血奴，使其心甘情愿侍奉你。",
+      "advancements.thrall_advancement.title": "任君饱尝",
+      "advancements.bell_advancement.title": "我命令你",
+      "advancements.bell_advancement.descr": "得到唤奴圣钟。",
+      "vampirism_the_masquerade.configuration.eye_type": "eyeType",
+      "vampirism_the_masquerade.configuration.fang_type": "fangType",
+      "entity.vampirism_the_masquerade.vampire_pillager": "魔宴掠夺者",
+      "entity.vampirism_the_masquerade.vampire_vindicator": "魔宴卫道士",
+      "entity.vampirism_the_masquerade.vampire_evoker": "魔宴唤魔者",
+      "humor.vtm.phlegmatic": "黏液质",
+      "humor.vtm.choleric": "胆汁质",
+      "humor.vtm.sanguine": "多血质",
+      "humor.vtm.melancholic": "抑郁质",
+      "tooltip.vtm.injected_blood": "血液量",
+      "tooltip.vtm.ml": "毫升"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/daanlokdrog/vampirismthemasquerade/init/VampirismTheMasqueradeModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/net/daanlokdrog/vampirismthemasquerade/init/VampirismTheMasqueradeModMobEffects.java",
+      "src/main/java/net/daanlokdrog/vampirismthemasquerade/init/VampirismTheMasqueradeModParticles.java",
+      "src/main/java/net/daanlokdrog/vampirismthemasquerade/init/VampirismTheMasqueradeModParticleTypes.java",
+      "src/main/java/net/daanlokdrog/vampirismthemasquerade/init/VampirismTheMasqueradeModConfigs.java",
+      "src/main/java/net/daanlokdrog/vampirismthemasquerade/init/VampirismTheMasqueradeModBlocks.java",
+      "src/main/java/net/daanlokdrog/vampirismthemasquerade/init/VampirismTheMasqueradeModItems.java",
+      "src/main/java/net/daanlokdrog/vampirismthemasquerade/init/VampirismTheMasqueradeModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/vampirism_the_masquerade.mixins.json",
+      "src/main/java/net/daanlokdrog/vampirismthemasquerade/VampirismTheMasqueradeMod.java",
+      "src/main/java/net/daanlokdrog/vampirismthemasquerade/network/VampirismTheMasqueradeModVariables.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dialogue",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "vampirism_the_masquerade",
+    "modName": "VampirismTheMasquerade",
+    "version": "0.1.1_alpha",
+    "description": "Make the mortals remember what once taught them to fear the night.",
+    "author": "Daanlokdrog",
+    "websiteURL": "https://space.bilibili.com/693971485?spm_id_from\u003d333.1365.0.0",
+    "license": "Public Domain",
+    "serverSideOnly": false,
+    "modPicture": "title",
+    "requiredMods": [
+      "vampirism"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator.(Export jar)",
+    "modElementsPackage": "net.daanlokdrog.vampirismthemasquerade"
+  },
+  "mcreatorVersion": 202500345720
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "vampirism_the_masquerade:template_1"
+    },
+    "title": {
+      "translate": "advancements.keep_the_masquerade.title"
+    },
+    "description": {
+      "translate": "advancements.keep_the_masquerade.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "keep_the_masquerade_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "vampirism:vampire/become_vampire"
+}

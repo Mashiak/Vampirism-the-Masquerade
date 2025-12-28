@@ -1,0 +1,49 @@
+{
+  "id": "vampirism_the_masquerade:cover_lord_task",
+  "title": { "translate": "task.masquerade.cover" },
+  "unlocker": [
+    {
+      "type": "vampirism_the_masquerade:exposure_unlocker",
+      "exposureThreshold": 100,
+      "mode": "LORD",
+      "matchExactly": false
+    }
+  ],
+  "requirements": {
+    "requirements": [
+      {
+        "type": "vampirism:item",
+        "description": { "translate": "item.minecraft.gold_ingot" },
+        "id": "minecraft:gold_ingot",
+        "item": { "count": 96, "id": "minecraft:gold_ingot" }
+      },
+      {
+        "type": "vampirism:item",
+        "description": {
+          "translate": "item.vampirism.human_heart"
+        },
+        "id": "vampirism:human_heart",
+        "item": {
+          "count": 16,
+          "id": "vampirism:human_heart"
+        }
+      },
+      {
+        "type": "vampirism:item",
+        "description": {
+          "translate": "item.vampirism.pure_blood_4"
+        },
+        "id": "vampirism:pure_blood_4",
+        "item": {
+          "count": 1,
+          "id": "vampirism:pure_blood_4"
+        }
+      }
+    ]
+  },
+  "rewards": {
+    "type": "vampirism_the_masquerade:cover_exposure",
+    "description": { "translate": "task_reward.vampirism_the_masquerade.cover_exposure" }
+  },
+"repeatable": true
+}
