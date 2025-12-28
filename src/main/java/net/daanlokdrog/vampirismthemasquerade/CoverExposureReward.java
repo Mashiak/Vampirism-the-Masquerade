@@ -4,7 +4,7 @@ import com.mojang.serialization.MapCodec;
 import de.teamlapen.vampirism.api.entity.player.IFactionPlayer;
 import de.teamlapen.vampirism.api.entity.player.task.ITaskRewardInstance;
 import de.teamlapen.vampirism.api.entity.player.task.TaskReward;
-import de.teamlapen.vampirism.entity.player.TaskManager; // 导入 TaskManager
+import de.teamlapen.vampirism.entity.player.TaskManager;
 import net.daanlokdrog.vampirismthemasquerade.network.VampirismTheMasqueradeModVariables;
 import net.daanlokdrog.vampirismthemasquerade.network.VampirismTheMasqueradeModVariables.PlayerVariables;
 import net.minecraft.network.chat.Component;
